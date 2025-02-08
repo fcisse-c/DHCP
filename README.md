@@ -1,5 +1,6 @@
-# DHCP
-# Configuration d'un serveur DHCP sur Windows Server (VM)
+# Réseau
+# 1 - DHCP avec Windows Server
+Installation et configuration d'un serveur DHCP avec Windows Server.
 
 ## Prérequis
 - Une VM sous Windows Server installée et fonctionnelle
@@ -46,9 +47,3 @@
    - **Type de prise en charge** : cocher **BOOTP** et **DHCP**.
 5. Valider avec **Ajouter**, puis **Fermer**.
 
-## Étape 5 : Tester la configuration
-### 5.1 Vérifier que le serveur DHCP est fonctionnel
-1. Ouvrir une invite de commandes sur le serveur DHCP.
-2. Exécuter la commande :
-   ```powershell
-   Get-DhcpServerv4Scope
